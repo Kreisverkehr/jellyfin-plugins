@@ -8,6 +8,14 @@
         "category": "Live TV",
         "versions": [
             {
+                "version": "0.1.2.0",
+                "changelog": "Fix potential crash while scanning for programs when text could not be decoded properly.",
+                "targetAbi": "12.1.0.0",
+                "sourceUrl": "https://github.com/Kreisverkehr/jellyfin-plugin-satip/releases/download/v0.1.2.0/sat-ip-live-tv-tuner_0.1.2.0.zip",
+                "checksum": "d0bc3c27544297ed268e6531d3b6713a",
+                "timestamp": "2026-10-17T12:09:57Z"
+            },
+            {
                 "version": "0.1.1.0",
                 "changelog": "Fix potential crash on startup when DLNA Plugin is installed.",
                 "targetAbi": "12.1.0.0",
