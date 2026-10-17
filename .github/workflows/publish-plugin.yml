@@ -34,7 +34,7 @@ jobs:
           set -euo pipefail
 
           # Only accept repositories owned by the expected account.
-          if [[ "$PLUGIN_REPO" != kreisverkehr/* ]]; then
+          if [[ "${PLUGIN_REPO,,}" != kreisverkehr/* ]]; then
             echo "::error::Unexpected plugin repository owner"
             exit 1
           fi
