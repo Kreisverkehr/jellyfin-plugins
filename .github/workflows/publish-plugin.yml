@@ -85,7 +85,7 @@ jobs:
         run: |
           set -euo pipefail
           jprm repo add \
-            --url="$URL" \
+            --plugin-url="$URL" \
             . \
             "$RUNNER_TEMP/$ASSET"
 
