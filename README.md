@@ -12,7 +12,7 @@ Plugins published through this repository can be installed directly from the Jel
 2. Navigate to **Plugins → Repositories**.
 3. Add a new repository with the following details:
 
-   - **Repository name:** My Jellyfin Plugins
+   - **Repository name:** Kreisverkehr Jellyfin Plugins
    - **Repository URL:** `https://raw.githubusercontent.com/kreisverkehr/jellyfin-plugins/main/manifest.json`
 
 4. Save the repository configuration.
