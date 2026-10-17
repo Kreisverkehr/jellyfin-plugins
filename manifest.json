@@ -1,1 +1,20 @@
-[]
+[
+    {
+        "guid": "3ebdc5ac-57aa-4ed0-aedf-122f99a6976f",
+        "name": "SAT>IP Live TV Tuner",
+        "description": "This plugin provides a tuner for your SAT>IP server. It supports automatic discovery of your tuners and scanning for epg data.",
+        "overview": "A SAT>IP server client plugin for Jellyfin.",
+        "owner": "Kreisverkehr",
+        "category": "Live TV",
+        "versions": [
+            {
+                "version": "0.1.0.0",
+                "changelog": "Initial release.",
+                "targetAbi": "12.1.0.0",
+                "sourceUrl": "https://github.com/Kreisverkehr/jellyfin-plugin-satip/releases/download/v0.1.0.0/sat-ip-live-tv-tuner_0.1.0.0.zip/sat-ip-live-tv-tuner/sat-ip-live-tv-tuner_0.1.0.0.zip",
+                "checksum": "540f1d9cfe6fd5948b28e7f5f5263a40",
+                "timestamp": "2026-10-17T09:40:50Z"
+            }
+        ]
+    }
+]
