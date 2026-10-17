@@ -1,0 +1,24 @@
+# Python / JPRM
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# temporary build artefacts
+artifacts/
+dist/
+build/
+*.zip
+*.dll
+
+# local config ans secrets
+.env
+.env.*
+!.env.example
+*.token
+
+# OS and IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
