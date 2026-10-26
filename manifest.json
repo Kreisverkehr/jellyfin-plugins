@@ -8,6 +8,14 @@
         "category": "Live TV",
         "versions": [
             {
+                "version": "0.1.4.3",
+                "changelog": "- increase logging around satip live stream\n",
+                "targetAbi": "12.1.0.0",
+                "sourceUrl": "https://github.com/Kreisverkehr/jellyfin-plugin-satip/releases/download/v0.1.4.3/sat-ip-live-tv-tuner_0.1.4.3.zip",
+                "checksum": "02cb94dfed2c4816cc260c0798a61e11",
+                "timestamp": "2026-10-26T22:14:52Z"
+            },
+            {
                 "version": "0.1.4.2",
                 "changelog": "- fix: actually routing the stream to ffmpeg correctly\n",
                 "targetAbi": "12.1.0.0",
