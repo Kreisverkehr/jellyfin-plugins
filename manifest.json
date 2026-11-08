@@ -8,6 +8,14 @@
         "category": "Live TV",
         "versions": [
             {
+                "version": "0.1.4.5",
+                "changelog": "- added logging for rtsp receive statistics\n- fixed: returning a fresh stream for each consumer to avoid issues with multiple consumers reading from the same stream\n",
+                "targetAbi": "12.1.0.0",
+                "sourceUrl": "https://github.com/Kreisverkehr/jellyfin-plugin-satip/releases/download/v0.1.4.5/sat-ip-live-tv-tuner_0.1.4.5.zip",
+                "checksum": "e62c65b0c47a612279a8ac21bd6f2fee",
+                "timestamp": "2026-11-08T10:43:50Z"
+            },
+            {
                 "version": "0.1.4.4",
                 "changelog": "- add yeat another log point\n",
                 "targetAbi": "12.1.0.0",
