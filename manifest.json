@@ -8,6 +8,14 @@
         "category": "Live TV",
         "versions": [
             {
+                "version": "0.1.5.0",
+                "changelog": "- added settings to control the port range used by RTSP sessions\n",
+                "targetAbi": "12.1.0.0",
+                "sourceUrl": "https://github.com/Kreisverkehr/jellyfin-plugin-satip/releases/download/v0.1.5.0/sat-ip-live-tv-tuner_0.1.5.0.zip",
+                "checksum": "3e57210df36672a79c9a1158771fb266",
+                "timestamp": "2026-11-10T18:28:00Z"
+            },
+            {
                 "version": "0.1.4.5",
                 "changelog": "- added logging for rtsp receive statistics\n- fixed: returning a fresh stream for each consumer to avoid issues with multiple consumers reading from the same stream\n",
                 "targetAbi": "12.1.0.0",
