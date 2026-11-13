@@ -8,6 +8,14 @@
         "category": "Live TV",
         "versions": [
             {
+                "version": "0.2.0.1",
+                "changelog": "- fix: prevent EPG scans from running indefinitely\n- feat: use the custom DVB metadata decoder for EPG scanning\n- feat: scan EPG data per multiplex\n- chore: align the assembly name and update dependencies\n- note: plugin configuration may be lost during an update\n",
+                "targetAbi": "12.1.0.0",
+                "sourceUrl": "https://github.com/Kreisverkehr/jellyfin-plugin-satip/releases/download/v0.2.0.1/sat-ip-live-tv-tuner_0.2.0.1.zip",
+                "checksum": "92e8684a17db137d606c41af6cd0b906",
+                "timestamp": "2026-11-13T22:54:58Z"
+            },
+            {
                 "version": "0.1.5.1",
                 "changelog": "- fix: epg scanning not possible due tu misconfigured listings provider\n",
                 "targetAbi": "12.1.0.0",
